@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrative demo oral photo</title>
+  <desc id="desc">A soft, abstract mouth illustration for demonstrating the photo workflow.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5eee3"/><stop offset="1" stop-color="#dfd2c2"/></linearGradient>
+    <radialGradient id="lips" cx="50%" cy="45%" r="60%"><stop stop-color="#d78578"/><stop offset=".72" stop-color="#b85f5b"/><stop offset="1" stop-color="#814744"/></radialGradient>
+    <radialGradient id="mouth" cx="50%" cy="38%" r="68%"><stop stop-color="#5c1f31"/><stop offset=".7" stop-color="#351526"/><stop offset="1" stop-color="#21121d"/></radialGradient>
+    <linearGradient id="teeth" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fffdf5"/><stop offset="1" stop-color="#e4d9c9"/></linearGradient>
+    <linearGradient id="tongue" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#db8586"/><stop offset="1" stop-color="#a74360"/></linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+  <rect width="720" height="500" rx="26" fill="url(#background)"/>
+  <ellipse cx="360" cy="258" rx="270" ry="181" fill="#8f6861" opacity=".2" filter="url(#soft)"/>
+  <path d="M91 250c38-108 133-165 269-165s231 57 269 165c-38 108-133 165-269 165S129 358 91 250Z" fill="url(#lips)"/>
+  <path d="M119 250c48-78 126-112 241-112s193 34 241 112c-48 78-126 112-241 112s-193-34-241-112Z" fill="url(#mouth)"/>
+  <path d="M139 238c54-61 126-88 221-88s167 27 221 88c-16 10-36 16-61 18-64 5-100-6-160-6s-96 11-160 6c-25-2-45-8-61-18Z" fill="url(#teeth)"/>
+  <path d="M139 262c54 61 126 88 221 88s167-27 221-88c-16-10-36-16-61-18-64-5-100 6-160 6s-96-11-160-6c-25 2-45 8-61 18Z" fill="url(#teeth)"/>
+  <path d="M214 247c45-17 88-20 146-20s101 3 146 20c-19 32-62 52-146 52s-127-20-146-52Z" fill="url(#tongue)"/>
+  <path d="M360 280c-2 22-2 37 0 54" fill="none" stroke="#8e344f" stroke-width="4" stroke-linecap="round" opacity=".5"/>
+  <path d="M154 236c58-59 125-79 206-79m206 79c-58-59-125-79-206-79" fill="none" stroke="#fff8ec" stroke-width="5" stroke-linecap="round" opacity=".3"/>
+  <path d="M134 252c8-63 52-119 111-147m341 147c-8-63-52-119-111-147" fill="none" stroke="#f2b3a4" stroke-width="7" stroke-linecap="round" opacity=".35"/>
+</svg>
